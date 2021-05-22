@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Bulbasaur</h2>
+            <a href="#" class="buy">Pick it</a>
+            <div class="circle"></div>
+            <img src="img/bul.png" class="product">
+        </div>
+         <div class="box">
+            <h2 class="name">Charmander</h2>
+            <a href="#" class="buy">Pick it</a>
+            <div class="circle"></div>
+            <img src="img/pokemon_PNG96.png" class="product">
+        </div>
+         <div class="box">
+            <h2 class="name">Squirtle</h2>
+            <a href="#" class="buy">Pick it</a>
+            <div class="circle"></div>
+            <img src="img/squirtle.png" class="product">
+        </div>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	</script>
+</body>
+</html>
